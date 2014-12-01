@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>AngularJS Presentation</title>
-    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <title>Data Compression &amp; Algorithms</title>
     <link href='http://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="css/impress-TFA.css"  />
       <link rel="stylesheet" href="lib/faws/css/font-awesome.min.css"/>
@@ -13,7 +12,6 @@
     </head>
     <body ng-app>
       <div id="impress">
-        <!--  Begin 4 slides  -->
         <!-- Intro Slide  -->
         <div class="step opacity words" data-x="0"  data-y="0"  data-z="0" >
           <h1 class="fa fa-binoculars fa-5x textCenter"></h1>
@@ -21,18 +19,24 @@
           <div class="em5">Compression</div>
           <div class="em4 substep textCenter">&amp;</div>
         </div>
+
+        <!-- Algorithms -->
         <div class="step opacity words" data-x="500" data-z="500" data-y="100" data-rotate="90">
           <div class="em8">
             <i class=" textCenter fa fa-tachometer"></i>
             Algorithms
           </div>
         </div>
+
+        <!-- What is it -->
         <div class="step opacity words" data-x="0"  data-y="0"   data-scale="40" >
           <div class="em5">
             What is it
             <i class="colorTitle fa fa-question-circle"></i>
           </div>
         </div>
+
+        <!-- Why -->
         <div class="step opacity words" data-x="250"  data-y="1300" data-z="5000" data-rotate="90" >
           <h1 class="em10">Why</h1>
           <h1 class="em7">do we </h1>
@@ -41,24 +45,29 @@
           <i class="fa fa-question-circle fa-4x"></i>
           </h2>
         </div>
-        
+
+        <!-- A Brief History. -->
         <div class="step opacity words" data-x="250"  data-y="100" data-z="-9000">
           <h2 class="fa fa-book textCenter fa-5x"></h2>
           <div class="em5">
             A Brief History...
           </div>
         </div>
+
+        <!-- Claude Shannon -->
         <div class="step opacity words" data-x="1000"  data-y="500" data-z="-11000" >
           <img src="img/CSHANNON.PNG" style="margin-left: 50px;" alt="">
           <h1 class="em5">Claude</h1>
           <h1 class="em4">Shannon</h1>
-          
         </div>
+
+        <!-- Samuel Morse -->
         <div class="step opacity words" data-x="2000"  data-y="1000" data-z="-13000" >
           <h2 class=" fa fa-cogs textCenter fa-5x"></h2>
           <h1 class="em5">Samuel Morse </h1>
           <h1 class="em2">[inventor of Morse Code]</h1>
         </div>
+
         <!-- ASCII Encoding -->
         <div class="step opacity words" data-x="3000"  data-y="1500" data-z="-15000" >
           <h2 class="fa fa-qrcode textCenter fa-5x"></h2>
@@ -73,11 +82,11 @@
             <b class="textCenter em2">"Mississippi river"</b>
             <br>
             <p class="model em1 substep">
-          "01001101 01001001 01010011 01010011 01001001 <br>
-          01010011 01010011 01001001 01010000 01010000 <br>
-          01001001 00100000 01010010 01001001 01010110 <br>
-          01000101 01010010"
-          </p>
+            "01001101 01001001 01010011 01010011 01001001 <br>
+            01010011 01010011 01001001 01010000 01010000 <br>
+            01001001 00100000 01010010 01001001 01010110 <br>
+            01000101 01010010"
+            </p>
             <p class="em15 substep" style="margin-left:100px">
             17 <b class="js">char</b> </br>
             x8 <b class="js">bit</b> </br>
@@ -88,21 +97,66 @@
           <div class="clearfix"></div>
           <p class="substep em2 textCenter">Can we do better? </p>
         </div>
-
-
-
-        <div class="step slide opacity" data-x="3000" data-y="180"  data-rotate-x="90" data-z="-16000" >
+        <!-- Huffman Encoding -->
+        <div class="step slide opacity" data-x="3000" data-y="180"  data-z="-16000" >
           <div class="title em3">Huffman Encoding</div>
-          <div id="tree"></div>
-            
+          <!-- <div id="tree"></div>      -->
         </div>
-        <!-- <div class="step opacity words" data-x="250"  data-y="0" data-rotate="90"  data-z="100" >
-          <div class="em5">Algorithms</div>
-        </div> -->
+        <!-- Lossless Data Compression  -->
+        <div class="step slide opacity" data-x="4100" data-y="180"  data-z="-16000" >
+          <div class="title em3">Lossless Data Compression</div>
+          <ul class="em3">
+            <li class="substep">What is it?</li>
+            <li class="substep">Algorithms</li>
+            <ul>
+              <li class="substep">LZ77</li>
+              <li class="substep">LZ78</li>
+            </ul>
+            <li class="substep">Common uses today</li>
+          </ul>
+        </div>
+        <!-- Lossy Data Compression  -->
+        <div class="step slide opacity" data-x="3000" data-y="860" data-rotate-x="90" data-z="-16000" >
+          <div class="title em3">Lossy Data Compression</div>
+          <ul class="em3">
+            <li class="substep">What is it?</li>
+            <li class="substep">Algorithms</li>
+            <ul>
+              <li class="substep">placeholder</li>
+              <li class="substep">placeholder</li>
+            </ul>
+            <li class="substep">Common uses today</li>
+          </ul>
+        </div>
+      <!-- Data Transmission -->
+        <div class="step slide opacity" data-x="4100" data-y="860" data-z="-16000" >
+          <div class="title em3">Data Transmission</div>
+          <ul class="em15">
+            <li class="substep">Compression technologies applied on data transmission</li>
+            <li class="substep">Why does some data sharing service send lossy data?</li>
+            <ul>
+              <li class="substep">Facebook Photo, YouTube</li>
+            </ul>
+            <li class="substep">Cloud storages rather send ZIP file than multiple huge files once.</li>
+              <ul>
+              <li class="substep">Google Drive, Dropbox</li>
+            </ul>
+            <li class="substep">HTTP Compressions</li>
+            <ul>
+              <li class="substep">Transfer-Encoding (TE)</li>
+              <li class="substep">Content-Encoding (CE)</li>
+            </ul>
+          </ul>
+        </div>
+
+        <!-- End -->
+         <div class="step opacity words" data-x="4100" data-y="860" data-roate-y="90"  data-rotate-z="90" data-z="-1000" >
+          <h1 class="em7">Thank</h1>
+          <h1 class="em10">You!</h1>
+        </div>
         </div>  <!-- end of .impress -->
         <script src="lib/iimpress.js"></script>
         <script src="lib/jquery-2.1.1.min.js"></script>
-        <script src="lib/angular.min.js"></script>
         <script src="lib/d3js.js"></script>
         <script src="js/custom.js"></script>
         <script src="js/tree.js"></script>
