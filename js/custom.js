@@ -3,7 +3,6 @@ $(document).ready(function() {
 
     // Entering State  (step)
     window.addEventListener('impress:stepenter', function() {
-
         
 
     });

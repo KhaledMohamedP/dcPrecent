@@ -63,6 +63,9 @@ body{
 .model ul{
   border-left: 5px solid #ce5424; 
 }
+.model ul li{
+  padding: 5px; 
+}
 
 .model .vs{
   position: relative;
@@ -267,6 +270,7 @@ h1,h2,h3,h4,h5,h6 {margin:0;color: #373737;}
 .em3{font-size: 3em;}
 .em4{font-size: 4em;}
 .em5{font-size: 5em;}
+.em55{font-size: 5.5em;}
 .em6{font-size: 6em;}
 .em7{font-size: 7em;}
 .em8{font-size: 8em;}
