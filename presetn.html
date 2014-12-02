@@ -204,7 +204,51 @@
         <!-- Lossy Data Compression  -->
         <div class="step slide opacity" data-x="3000" data-y="1300" data-rotate-x="90" data-z="-16000" >
           <div class="title em3">LZ78 - “abracadabra”</div>
-          <img src="img/lz78.png" alt="">
+          <table style="margin-left:250px; margin-top: 50px;">
+            <tr> 
+              <th>OutPut</th>
+              <th>index</th>
+              <th>string</th>
+            </tr>
+            <tr class="substep">
+              <td>&lt;0 , c(a)&gt;</td>
+              <td>1</td>
+              <td>a</td>
+            </tr>
+            <tr class="substep">
+              <td>&lt;0 , c(b)&gt;</td>
+              <td>2</td>
+              <td>b</td>
+            </tr>
+            <tr class="substep">
+              <td>&lt;0 , c(r)&gt;</td>
+              <td>3</td>
+              <td>r</td>
+            </tr>
+            <tr class="substep">
+              <td>&lt;1 , c(c)&gt;</td>
+              <td>4</td>
+              <td>ac</td>
+            </tr>
+            <tr class="substep">
+              <td>&lt;1 , c(d)&gt;</td>
+              <td>5</td>
+              <td>ad</td>
+            </tr>
+            <tr class="substep">
+              <td>&lt;1 , c(b)&gt;</td>
+              <td>6</td>
+              <td>ab</td>
+            </tr>
+            <tr class="substep">
+              <td>&lt;3 , c(a)&gt;</td>
+              <td>7</td>
+              <td>ra</td>
+            </tr> 
+          </table> 
+          <p class="textCenter substep">
+            &lt;0 , c(a)&gt; , &lt;0 , c(b)&gt;, &lt;0 , c(r)&gt;, &lt;1 , c(c)&gt;, &lt;1 , c(d)&gt;, &lt;1 , c(b)&gt;, &lt;3 , c(a)&gt;
+          </p>
         </div>
       <!-- Data Transmission -->
         <div class="step slide opacity" data-x="4100" data-rotate-x="360" data-y="860" data-z="-16000" >
@@ -216,11 +260,11 @@
         </div>
 
         <!-- End -->
-         <div class="step opacity words" data-x="5600" data-y="860" data-roate-y="90"  data-rotate-z="90" data-z="-1000" data-scale="4" >
+         <div class="step opacity words" data-x="5600" data-y="860" data-roate-y="90"  data-rotate-z="90" data-z="-13000" data-scale="4" >
           <h1 class="em7">Thank</h1>
           <h1 class="em10">You!</h1>
         </div>
-        <div class="step opacity words" data-x="4100" data-y="1060" data-rotate-x="180"  data-rotate-z="90" data-z="-1000" data-scale="4" >
+        <div class="step opacity words" data-x="5600" data-y="4060" data-rotate-x="180"  data-rotate-z="180" data-z="-13000" data-scale="4" >
           <h1 class="em7">Questions</h1>
         </div>
         </div>  <!-- end of .impress -->
@@ -233,45 +277,4 @@
 
 
 
-    <!-- <table>
-  <tr> 
-    <th>OutPut</th>
-    <th>index</th>
-    <th>string</th>
-  </tr>
-  <tr>
-    <td>&lt;0 , c(a)&gt;</td>
-    <td>1</td>
-    <td>a</td>
-  </tr>
-  <tr>
-    <td>&lt;0 , c(b)&gt;</td>
-    <td>2</td>
-    <td>b</td>
-  </tr>
-  <tr>
-    <td>&lt;0 , c(r)&gt;</td>
-    <td>3</td>
-    <td>r</td>
-  </tr>
-  <tr>
-    <td>&lt;1 , c(c)&gt;</td>
-    <td>4</td>
-    <td>ac</td>
-  </tr>
-  <tr>
-    <td>&lt;1 , c(d)&gt;</td>
-    <td>5</td>
-    <td>ad</td>
-  </tr>
-  <tr>
-    <td>&lt;1 , c(b)&gt;</td>
-    <td>6</td>
-    <td>ra</td>
-  </tr>
-  <tr>
-    <td>&lt;3 , c(a)&gt;</td>
-    <td>7</td>
-    <td></td>
-  </tr> 
-</table> -->
+    <!-- -->
