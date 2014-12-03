@@ -1,6 +1,15 @@
+/*font style*/
+@font-face {
+    font-family: 'ArchivoBlacks';
+    font-style: normal;
+    font-weight: 700;
+    src: local('ArchivoBlack-Regular'), local('ArchivoBlack-Regular'), url(font/ArchivoBlack-Regular.ttf) format('truetype');
+}
+
+/*end font style*/
 body{
   background: #E5E5E5;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'ArchivoBlacks', sans-serif;
   padding: 10px; 
   text-transform: uppercase;
 }
@@ -107,9 +116,13 @@ button:active{
 }
 
 .bar{
-  padding: 20px 5px 100px 35px; 
+  padding: 5px; 
   background: #eee;
   border-left: 6px solid #CE5323;
+}
+.bar li{
+  padding: 5px 0;
+  font-size: 2em; 
 }
 
 table {
