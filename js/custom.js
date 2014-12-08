@@ -18,7 +18,7 @@ $(document).ready(function() {
 
        $('#oneMoreThing.active').parent().find('h1').removeClass("em7")
                                         .text("One More Thing...").addClass("em4 animated bounceInDown");
-
+                                        
     });
 
     //leaving state (substep)
